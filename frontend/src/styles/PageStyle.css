@@ -1,0 +1,102 @@
+body
+{
+    overflow: hidden;
+    background-color: rgb(70, 68, 68);
+    color: rgb(31, 29, 29);
+    
+    outline: 1px solid rgb(25, 0, 255);
+}
+
+.App
+{
+    position: relative;
+    background: linear-gradient( 110deg, #e0ec4c 45%, #08bcd4 45%);
+    width: 70vw;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+                                        /*main header*/
+.App > header
+{
+    font-size: 40px;
+    position: relative;
+    top:0px;
+    left: 50px;
+    
+}
+
+
+                                        /*page content*/
+
+#content
+{
+    position: relative;
+    background-color: white;
+    padding: 100px 200px;
+    height: 500px;
+    outline: 1px solid red;
+}
+
+#header-image
+{
+    outline: 1px solid red;
+    float: left;
+}
+#content-header
+{
+    outline: 1px solid red;
+    text-align: left;
+    font-size: 40px;
+}
+
+#rick-morty-image
+{
+    width: 300px;
+}
+
+#list-episodes-content
+{
+    display: inline;
+    float: right;
+    
+}
+                                        /*episode*/
+.episode
+{
+    
+    float: left;
+    
+}
+
+.episode >header
+{
+    padding: 10px;
+    float: left;
+}
+
+.title-date
+{
+    padding: 10px;
+    float: right;
+    border-left:1px solid green ;
+}
+
+                                        /*footer*/
+
+.App > #footer
+{
+    display: block;
+    text-align: center;
+    background-color: gray;
+    height: 40px;
+}
+
+#footer > p
+{
+    outline: 1px solid red;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
