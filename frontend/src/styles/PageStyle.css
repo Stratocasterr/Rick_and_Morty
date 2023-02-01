@@ -3,7 +3,7 @@ body
     overflow: hidden;
     background-color: rgb(70, 68, 68);
     color: rgb(31, 29, 29);
-    
+    margin: 0;
     outline: 1px solid rgb(25, 0, 255);
 }
 
@@ -11,10 +11,10 @@ body
 {
     position: relative;
     background: linear-gradient( 110deg, #e0ec4c 45%, #08bcd4 45%);
-    width: 70vw;
-    
-    margin-right: auto;
-    margin-left: auto;
+   
+    height: 1489px;
+    width: 1920px;
+   
 }
 
                                         /*main header*/
@@ -24,6 +24,7 @@ body
     position: relative;
     top:0px;
     left: 50px;
+    height: 93px;
     
 }
 
@@ -56,10 +57,12 @@ body
     width: 300px;
 }
 
-#list-episodes-content
+#list-episodes-container
 {
-    display: inline;
+    
+    outline: 1px solid rgb(55, 0, 255);
     float: right;
+    width: 45%;
     
 }
                                         /*episode*/
@@ -67,6 +70,8 @@ body
 {
     
     float: left;
+    outline: 1px solid red;
+    width: 100%;
     
 }
 
@@ -79,7 +84,7 @@ body
 .title-date
 {
     padding: 10px;
-    float: right;
+    margin-left: 80px;
     border-left:1px solid green ;
 }
 

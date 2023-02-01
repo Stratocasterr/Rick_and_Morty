@@ -1,4 +1,4 @@
-import { LoremIpsum, Avatar } from 'react-lorem-ipsum';
+//import { LoremIpsum, Avatar } from 'react-lorem-ipsum';
 import HeaderImage from './components/HeaderImage';
 import ListEpisodes from './components/ListEpisodes'
 function App() {
