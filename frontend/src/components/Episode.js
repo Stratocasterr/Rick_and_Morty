@@ -7,8 +7,12 @@ const Episode = (props) => {
         <div className='episode'>
             <header> <b>{name}</b></header>
             <div className='title-date'>
-                <header><font color={title_color}><b>{title}</b></font></header>
-                <p>{date}</p>
+                <header id='episode-title'>
+                    <font color={title_color}><b>{title}</b></font>
+                </header>
+               
+                <p id='episode-date'>{date}</p>
+               
             </div>
         </div>)
   
