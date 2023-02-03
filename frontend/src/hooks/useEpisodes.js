@@ -1,6 +1,5 @@
-import React from 'react'
 import { useQuery, gql } from '@apollo/client';
-const G = gql`
+const EPISODES = gql`
 query{
   episodes(filter:{episode:"S04"})
   {
@@ -14,9 +13,7 @@ query{
 }
 `;
 export const useEpisodes = () => {
-    const {data, error, loading} = useQuery(G)
-   
-    
+    const {data, error, loading} = useQuery(EPISODES)
     return{
         error,
         data,
