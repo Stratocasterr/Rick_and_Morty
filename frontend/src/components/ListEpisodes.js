@@ -1,11 +1,9 @@
 import React from 'react'
 import Episode from './Episode'
 import {useEpisodes} from '../hooks/useEpisodes'
-const ListEpisodes = () => {
-
-    
+const ListEpisodes = () => 
+{
     const {error, loading, data }= useEpisodes()
-    console.log(data, error, loading)
     if (loading) return <div>loading...</div>
     if(error) return <div>error</div>
 

@@ -15,12 +15,11 @@ const HeaderImage = () => {
                   color='#08bcd4'>
                   <b>Rick and Morty</b>
                 </font>
-            </p>
-            
+            </p>  
         </div>
 
         <img 
-            alt='write_mess' 
+            alt='rick-morty-img' 
             id='rick-morty-image'
             src={require("../images/rick_morty.png")} 
         />

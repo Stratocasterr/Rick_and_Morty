@@ -2,7 +2,7 @@ import React from 'react'
 
 const Episode = (props) => {
     const {name, date, title, title_color} = props
-    console.log("props: ",props)
+    
     return(
         <div className='episode'>
             <header> <b>{name}</b></header>

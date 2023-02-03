@@ -1,0 +1,159 @@
+@media only screen and (min-width: 1921px)
+{
+
+:root
+{
+    --width:1920px;
+    --height:1489px ;
+    --main-header-height:96px;
+    --footer-height:68px;    
+}
+
+.App
+{
+    position: relative;
+    background: linear-gradient( 
+        121deg, var(--main-header-color1)  
+        35%, var(--main-header-color2) 35%);
+    
+    height: var(--height);
+    width: var( --width);
+   
+}
+
+                                        /*main header*/
+.App > header
+{
+    position: relative;
+    top: 25px;
+    left: 66px;
+    letter-spacing: 1px;
+    font-size: 1.65rem;
+    height: var(--main-header-height);
+    font-family: LatoBlack;
+}
+
+                                        /*page content*/
+
+#content
+{
+    position: relative;
+    background-color: var(--content-background-color);
+    padding: 100px 200px;
+    height: 1125px;
+}
+
+#header-image
+{
+    float: left;
+}
+
+#content-header
+{
+    font-family: LatoRegular;
+    position: relative;
+    top: -41px;
+    left: -3px;
+    text-align: left;
+    font-size: 3rem;
+}
+
+#r-m-bold
+{
+    position: relative;
+    top: 0px;
+    left: -1px;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+}
+
+#rick-morty-image
+{
+    position: relative;
+    top: -59px;
+    left: -20px;
+    width: 647px;
+    height: 664px;
+}
+
+#list-episodes-container
+{
+    float: right;
+    width: 45%;
+    position: relative;
+    top: 32px;
+    left: 0px;
+}
+                                        /*episode*/
+.episode
+{
+    float: left;
+    margin-bottom: -21.1px;
+    width: 100%;
+}
+
+.episode > header
+{
+    position: relative;
+    top: -6px;
+    left: -10px;
+    padding: 10px 10px;
+    float: left;
+    font-size: 1.25rem;
+    font-family: LatoBold;
+}
+
+.title-date
+{
+    position: relative;
+    top: -13px;
+    left: 14px;
+    padding: 18px;
+    margin-left: 106px;
+    border-left: 1px solid #ebe8e8;
+    letter-spacing: -1px;
+    font-family: LatoBold;
+}
+
+.title-date > #episode-title
+{
+    position: relative;
+    top: -1px;
+    left: 11px;
+    font-size: 1.25rem;
+    letter-spacing: 0.01px;
+}
+
+.title-date > #episode-date
+{
+    position: relative;
+    top: -5px;
+    left: 12px;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    color:#949494;
+}
+
+                                        /*footer*/
+
+.App > #footer
+{
+    display: block;
+    text-align: center;
+    background-color: rgba(70,68,68,255);
+    height: 68px;
+    position: relative;
+    top:0px;
+    left:0;
+    font-family: LatoBold;
+}
+
+#footer > p
+{
+    font-size: 0.8rem;
+    position: absolute;
+    top:8.5px;
+    width: 100%;
+    color: rgb(201, 197, 197);
+}
+}
