@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1921px)
+@media only screen and (min-width: 413px)
 {
 
 :root
@@ -18,7 +18,8 @@
     
     height: var(--height);
     width: var( --width);
-   
+    margin-left: auto;
+    margin-right: auto;
 }
 
                                         /*main header*/
@@ -88,7 +89,7 @@
 .episode
 {
     float: left;
-    margin-bottom: -21.1px;
+    margin-bottom: -20.1px;
     width: 100%;
 }
 
