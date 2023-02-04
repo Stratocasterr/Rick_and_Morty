@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeaderImage = () => {
+const HeaderImage:React.FC = () => {
   return (
     <div id='header-image'>
         <div 
@@ -10,11 +10,11 @@ const HeaderImage = () => {
                 <br></br>
                 season of the series
                 <br></br>
-                <font 
+                <span
                   id = 'r-m-bold' 
-                  color='#08bcd4'>
+                  style={{color:`#08bcd4`}}>
                   <b>Rick and Morty</b>
-                </font>
+                </span>
             </p>  
         </div>
 

@@ -15,7 +15,7 @@
     background-color: var(--main-header-color1);
     height: var(--height);
     width: var(--width);
-   
+
 }
 
                                         /*main header*/
@@ -83,7 +83,7 @@
     float: right;
     width: 45%;
     position: relative;
-    top: 57px;
+    top: 56px;
     left: -200px;
 }
                                         /*episode*/
@@ -93,7 +93,7 @@
     float: left;
     width: calc(var(--width) - 50px);
     padding: 0px 0px 15px;
-    margin-bottom: 2.25px;
+    margin-bottom: 2px;
 }
 
 .episode > header
