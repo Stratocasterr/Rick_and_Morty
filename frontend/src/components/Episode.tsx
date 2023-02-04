@@ -18,13 +18,10 @@ const Episode = (props) => {
                     <div 
                         style={{color:`${title_color}`}}><b>{title}</b>
                     </div>
-                </header>
-               
-                <p id='episode-date'>{date}</p>
-               
+                </header>        
+                <p id='episode-date'>{date}</p>         
             </div>
         </div>)
-  
 }
 
 export default Episode

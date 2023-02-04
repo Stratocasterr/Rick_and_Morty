@@ -1,4 +1,4 @@
-@media only screen and (max-width :1920px)
+@media only screen and (max-width :412px)
 {
 
 :root
@@ -15,7 +15,7 @@
     background-color: var(--main-header-color1);
     height: var(--height);
     width: var(--width);
-
+    overflow: hidden;
 }
 
                                         /*main header*/
@@ -137,12 +137,12 @@
 
 .App > #footer
 {
-    display: block;
     text-align: center;
     background-color: rgba(70,68,68,255);
     height: var(--footer-height);
     position: relative;
-    left: 0;
+    left: -1px;
+    width: calc(var(--width) + 2px);
     font-family: LatoBold;
 }
 
@@ -156,5 +156,4 @@
     letter-spacing: -1.2px;
     color: rgb(201, 197, 197);
 }
-
 }

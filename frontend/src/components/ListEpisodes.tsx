@@ -14,7 +14,6 @@ const ListEpisodes:React.FC = () =>
     const {error, loading, data }: Props= useEpisodes()
     if (loading) return <div>loading...</div>
     if(error) return <div>error</div>
-
     let episodes:any
 
     if(typeof data !== 'undefined')
