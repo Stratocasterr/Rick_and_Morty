@@ -7,7 +7,7 @@ interface Props {
     title_color:string
   }
 
-const Episode = (props) => {
+const Episode = (props:Props) => {
     const {name, date, title, title_color}:Props = props
     
     return(
