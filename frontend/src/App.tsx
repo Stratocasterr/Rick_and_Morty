@@ -1,5 +1,5 @@
-import HeaderImage from './components/HeaderImage.tsx';
-import ListEpisodes from './components/ListEpisodes.tsx'
+import HeaderImage from './components/HeaderImage';
+import ListEpisodes from './components/ListEpisodes'
 import React from 'react';
 
 const App: React.FC = () =>{

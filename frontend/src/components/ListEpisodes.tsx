@@ -1,6 +1,6 @@
 import React from 'react'
-import Episode from './Episode.tsx'
-import {useEpisodes} from '../hooks/useEpisodes.tsx'
+import Episode from './Episode'
+import {useEpisodes} from '../hooks/useEpisodes'
 import {ApolloError } from '@apollo/client';
 
 interface Props
@@ -18,7 +18,7 @@ const ListEpisodes:React.FC = () =>
 
     if(typeof data !== 'undefined')
     {
-      episodes = data.episodes.results.map((episode, index) => 
+      episodes = data.episodes.results.map((episode:any, index:number) => 
       {
           return(
             <Episode
@@ -30,12 +30,10 @@ const ListEpisodes:React.FC = () =>
             />)
       })
     }
-    
     return (
       <div id='list-episodes-container'>
           {episodes}          
       </div>
     )
 }
-
 export default ListEpisodes

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.tsx';
+import App from './App';
 import fonts from './styles/fonts.css'
 import pageStyle from './styles/pageStyle.css'
 import desktopView from './styles/desktopView.css'
